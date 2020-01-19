@@ -83,7 +83,10 @@ def check_reply(message):
 
 
 def main():
-    bot.polling()
+    try:
+        bot.polling()
+    except Exception:
+        print("error!")
 
 
 if __name__ == "__main__":
