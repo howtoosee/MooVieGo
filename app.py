@@ -25,8 +25,6 @@ def search():
 @app.route("/search/<term>")
 def search_term(term):
     res = custom_search(term)
-    # print(len(res['items']))
-    formatted = "<h2>Search results for '{}'</h2>".format(term.replace("+", " "))
 
     format_results.copy_template()
     format_results.copy_results(res['items'])

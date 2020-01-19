@@ -3,13 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="c335af27-7140-4f52-a1a4-b6acb5b0c095" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/results.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="HnR2020" />
@@ -199,7 +214,7 @@
       <workItem from="1579342310835" duration="9359000" />
       <workItem from="1579397688943" duration="4825000" />
       <workItem from="1579404008472" duration="353000" />
-      <workItem from="1579405059468" duration="1270000" />
+      <workItem from="1579405059468" duration="3011000" />
     </task>
     <servers />
   </component>
@@ -212,30 +227,30 @@
     </state>
     <state x="628" y="287" key="FileChooserDialogImpl/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579338319444" />
     <state x="628" y="287" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1579349427673" />
-    <state width="818" height="247" key="GridCell.Tab.0.bottom" timestamp="1579409292604">
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom" timestamp="1579412319389">
       <screen x="0" y="23" width="1680" height="984" />
     </state>
     <state width="1638" height="276" key="GridCell.Tab.0.bottom/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579337938718" />
     <state width="1638" height="265" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579403897876" />
-    <state width="818" height="247" key="GridCell.Tab.0.bottom/0.23.1680.984@0.23.1680.984" timestamp="1579409292604" />
-    <state width="818" height="247" key="GridCell.Tab.0.center" timestamp="1579409292603">
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom/0.23.1680.984@0.23.1680.984" timestamp="1579412319389" />
+    <state width="1638" height="258" key="GridCell.Tab.0.center" timestamp="1579412319388">
       <screen x="0" y="23" width="1680" height="984" />
     </state>
     <state width="1638" height="276" key="GridCell.Tab.0.center/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579337938716" />
     <state width="1638" height="265" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579403897875" />
-    <state width="818" height="247" key="GridCell.Tab.0.center/0.23.1680.984@0.23.1680.984" timestamp="1579409292603" />
-    <state width="818" height="247" key="GridCell.Tab.0.left" timestamp="1579409292603">
+    <state width="1638" height="258" key="GridCell.Tab.0.center/0.23.1680.984@0.23.1680.984" timestamp="1579412319388" />
+    <state width="1638" height="258" key="GridCell.Tab.0.left" timestamp="1579412319387">
       <screen x="0" y="23" width="1680" height="984" />
     </state>
     <state width="1638" height="276" key="GridCell.Tab.0.left/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579337938715" />
     <state width="1638" height="265" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579403897874" />
-    <state width="818" height="247" key="GridCell.Tab.0.left/0.23.1680.984@0.23.1680.984" timestamp="1579409292603" />
-    <state width="818" height="247" key="GridCell.Tab.0.right" timestamp="1579409292604">
+    <state width="1638" height="258" key="GridCell.Tab.0.left/0.23.1680.984@0.23.1680.984" timestamp="1579412319387" />
+    <state width="1638" height="258" key="GridCell.Tab.0.right" timestamp="1579412319388">
       <screen x="0" y="23" width="1680" height="984" />
     </state>
     <state width="1638" height="276" key="GridCell.Tab.0.right/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579337938717" />
     <state width="1638" height="265" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579403897875" />
-    <state width="818" height="247" key="GridCell.Tab.0.right/0.23.1680.984@0.23.1680.984" timestamp="1579409292604" />
+    <state width="1638" height="258" key="GridCell.Tab.0.right/0.23.1680.984@0.23.1680.984" timestamp="1579412319388" />
     <state width="1638" height="265" key="GridCell.Tab.1.bottom" timestamp="1579403897878">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -259,10 +274,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HnR2020$search.coverage" NAME="search Coverage Results" MODIFIED="1579327492815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HnR2020$app.coverage" NAME="app Coverage Results" MODIFIED="1579409160430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HnR2020$app.coverage" NAME="app Coverage Results" MODIFIED="1579411992504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HnR2020$backend.coverage" NAME="backend Coverage Results" MODIFIED="1579333610624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HnR2020$load_env.coverage" NAME="load_env Coverage Results" MODIFIED="1579408414808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HnR2020$bot.coverage" NAME="bot Coverage Results" MODIFIED="1579409174440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HnR2020$bot.coverage" NAME="bot Coverage Results" MODIFIED="1579412319381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HnR2020$main.coverage" NAME="main Coverage Results" MODIFIED="1579408546835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
 </project>
