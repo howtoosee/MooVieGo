@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c335af27-7140-4f52-a1a4-b6acb5b0c095" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13cce7fd076299c81b4986166f3d822791c9490e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13cce7fd076299c81b4986166f3d822791c9490e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db1473d962e4c12d22cbfc77648c8ef9ba0c8d0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,13 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.bot">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HnR2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,6 +65,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HnR2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bot" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.search" />
       </list>
@@ -118,7 +152,8 @@
       <workItem from="1579334947454" duration="5689000" />
       <workItem from="1579341734370" duration="463000" />
       <workItem from="1579342276637" duration="25000" />
-      <workItem from="1579342310835" duration="8890000" />
+      <workItem from="1579342310835" duration="9359000" />
+      <workItem from="1579397688943" duration="3612000" />
     </task>
     <servers />
   </component>
@@ -131,26 +166,42 @@
     </state>
     <state x="628" y="287" key="FileChooserDialogImpl/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579338319444" />
     <state x="628" y="287" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1579349427673" />
-    <state width="1638" height="284" key="GridCell.Tab.0.bottom" timestamp="1579353004616">
+    <state width="1638" height="284" key="GridCell.Tab.0.bottom" timestamp="1579400658936">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="276" key="GridCell.Tab.0.bottom/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579337938718" />
-    <state width="1638" height="284" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579353004616" />
-    <state width="1638" height="284" key="GridCell.Tab.0.center" timestamp="1579353004615">
+    <state width="1638" height="284" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579400658936" />
+    <state width="1638" height="284" key="GridCell.Tab.0.center" timestamp="1579400658935">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="276" key="GridCell.Tab.0.center/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579337938716" />
-    <state width="1638" height="284" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579353004615" />
-    <state width="1638" height="284" key="GridCell.Tab.0.left" timestamp="1579353004614">
+    <state width="1638" height="284" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579400658935" />
+    <state width="1638" height="284" key="GridCell.Tab.0.left" timestamp="1579400658934">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="276" key="GridCell.Tab.0.left/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579337938715" />
-    <state width="1638" height="284" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579353004614" />
-    <state width="1638" height="284" key="GridCell.Tab.0.right" timestamp="1579353004615">
+    <state width="1638" height="284" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579400658934" />
+    <state width="1638" height="284" key="GridCell.Tab.0.right" timestamp="1579400658935">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="276" key="GridCell.Tab.0.right/-1112.280.1112.770/0.0.1680.1050@0.0.1680.1050" timestamp="1579337938717" />
-    <state width="1638" height="284" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579353004615" />
+    <state width="1638" height="284" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579400658935" />
+    <state width="1638" height="265" key="GridCell.Tab.1.bottom" timestamp="1579400290506">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579400290506" />
+    <state width="1638" height="265" key="GridCell.Tab.1.center" timestamp="1579400290505">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579400290505" />
+    <state width="1638" height="265" key="GridCell.Tab.1.left" timestamp="1579400290504">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579400290504" />
+    <state width="1638" height="265" key="GridCell.Tab.1.right" timestamp="1579400290505">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579400290505" />
     <state x="341" y="164" key="SettingsEditor" timestamp="1579342298819">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -160,5 +211,6 @@
     <SUITE FILE_PATH="coverage/HnR2020$search.coverage" NAME="search Coverage Results" MODIFIED="1579327492815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HnR2020$app.coverage" NAME="app Coverage Results" MODIFIED="1579353004607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HnR2020$backend.coverage" NAME="backend Coverage Results" MODIFIED="1579333610624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HnR2020$bot.coverage" NAME="bot Coverage Results" MODIFIED="1579400658926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

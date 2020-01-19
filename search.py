@@ -1,17 +1,13 @@
 from googleapiclient.discovery import build
 
-env = {}
+from load_env import load_env
 
-
-with open(".env", 'r') as file:
-    contents = file.read().split()
-    for line in contents:
-        k, v = line.split("=")
-        env[k] = v
+env = load_env()
+CSE_ID = env["CSE_ID"]
+CSE_API_KEY = env["CSE_API_KEY"]
 
 
 def custom_search(term):
-    resource = build("customsearch", 'v1', developerKey=env['CSE_API_KEY']).cse()
-    res = resource.list(q=term, cx=env['CSE_ID']).execute()
+    resource = build("customsearch", 'v1', developerKey=CSE_API_KEY).cse()
+    res = resource.list(q=term, cx=CSE_ID).execute()
     return res
-
