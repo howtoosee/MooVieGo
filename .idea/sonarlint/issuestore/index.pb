@@ -25,3 +25,7 @@ C
 templates/home.html,8/6/86f3a00c4de0ad1280042b4c75ce3672e5141a0f
 A
 format_results.py,6/a/6a89f4004a025bbedc29f681b73a2234cff230e1
+;
+load_env.py,b/6/b6e6b5b45ad25ca828011fc85fcf1395f1bb4708
+6
+bot.py,9/3/93374d5ad20eb17306a1988725b9b8f5bbaeaf0e
