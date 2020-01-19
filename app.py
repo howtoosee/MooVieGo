@@ -1,6 +1,7 @@
-from flask import Flask, render_template, request, redirect, url_for
-from search import custom_search
+from flask import Flask, render_template, request, redirect
+
 import format_results
+from search import custom_search
 
 app = Flask(__name__, template_folder='./templates')
 NAME = "MooVieGo"
@@ -43,5 +44,9 @@ def about():
     return render_template("about.html")
 
 
-if __name__ == "__main__":
+def main():
     app.run(debug=True, port=3000)
+
+
+if __name__ == "__main__":
+    main()

@@ -82,4 +82,9 @@ def check_reply(message):
         movie(message)
 
 
-bot.polling()
+def main():
+    bot.polling()
+
+
+if __name__ == "__main__":
+    main()
